@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevTrustTestTask", "DevTrustTestTask\DevTrustTestTask.csproj", "{4458EC5F-04EF-486A-A639-B1E1C7919A55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevTrustTestTask.DataBase", "DevTrustTestTask.DataBase\DevTrustTestTask.DataBase.csproj", "{164E66B1-1A6D-45D7-9798-35BB84C76082}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,18 @@ Global
 		{4458EC5F-04EF-486A-A639-B1E1C7919A55}.Release|x64.Build.0 = Release|Any CPU
 		{4458EC5F-04EF-486A-A639-B1E1C7919A55}.Release|x86.ActiveCfg = Release|Any CPU
 		{4458EC5F-04EF-486A-A639-B1E1C7919A55}.Release|x86.Build.0 = Release|Any CPU
+		{164E66B1-1A6D-45D7-9798-35BB84C76082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164E66B1-1A6D-45D7-9798-35BB84C76082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164E66B1-1A6D-45D7-9798-35BB84C76082}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{164E66B1-1A6D-45D7-9798-35BB84C76082}.Debug|x64.Build.0 = Debug|Any CPU
+		{164E66B1-1A6D-45D7-9798-35BB84C76082}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{164E66B1-1A6D-45D7-9798-35BB84C76082}.Debug|x86.Build.0 = Debug|Any CPU
+		{164E66B1-1A6D-45D7-9798-35BB84C76082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164E66B1-1A6D-45D7-9798-35BB84C76082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{164E66B1-1A6D-45D7-9798-35BB84C76082}.Release|x64.ActiveCfg = Release|Any CPU
+		{164E66B1-1A6D-45D7-9798-35BB84C76082}.Release|x64.Build.0 = Release|Any CPU
+		{164E66B1-1A6D-45D7-9798-35BB84C76082}.Release|x86.ActiveCfg = Release|Any CPU
+		{164E66B1-1A6D-45D7-9798-35BB84C76082}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
