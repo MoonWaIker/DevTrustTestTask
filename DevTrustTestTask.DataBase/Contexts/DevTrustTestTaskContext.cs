@@ -11,6 +11,6 @@ public class DevTrustTestTaskContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=localhost;Database=DevTrustTestTask;User Id=sa;Password=<YourStrong@Passw0rd>;");
+        optionsBuilder.UseSqlServer();
     }
 }
