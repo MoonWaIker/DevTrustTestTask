@@ -9,13 +9,11 @@ namespace DevTrustTestTask.Controllers;
 [ApiController]
 public sealed class PersonController(IPeopleService service) : ControllerBase
 {
-    private const string IdRoute = "{id:long}";
     private const string ControllerRoute = "api/[controller]";
 
     private readonly IPeopleService _service = service;
 
-    [ValidateAntiForgeryToken]
-    [HttpPut(IdRoute)]
+    [HttpPut]
     public IActionResult PutPerson(Person person)
     {
         _service.UpdatePerson(person);
@@ -23,7 +21,6 @@ public sealed class PersonController(IPeopleService service) : ControllerBase
         return NoContent();
     }
 
-    [ValidateAntiForgeryToken]
     [HttpPost]
     public ActionResult<Person> PostPerson(Person person)
     {

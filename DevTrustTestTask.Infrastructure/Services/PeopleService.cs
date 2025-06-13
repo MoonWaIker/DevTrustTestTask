@@ -21,9 +21,10 @@ public sealed class PeopleService(DevTrustTestTaskContext context) : IPeopleServ
     {
         return _context.People
             .Include(p => p.Address)
-            .Where(p => (string.IsNullOrWhiteSpace(request.FirstName) || p.FirstName.Contains(request.FirstName, StringComparison.OrdinalIgnoreCase))
-            && (string.IsNullOrWhiteSpace(request.LastName) || p.LastName.Contains(request.LastName, StringComparison.OrdinalIgnoreCase))
-            && (string.IsNullOrWhiteSpace(request.City) || p.Address != null && p.Address.City.Contains(request.City, StringComparison.OrdinalIgnoreCase)));
+            .AsEnumerable()
+            .Where(p => (string.IsNullOrWhiteSpace(request.FirstName) || p.FirstName.Contains(request.FirstName, StringComparison.InvariantCulture))
+            && (string.IsNullOrWhiteSpace(request.LastName) || p.LastName.Contains(request.LastName, StringComparison.InvariantCulture))
+            && (string.IsNullOrWhiteSpace(request.City) || p.Address != null && p.Address.City.Contains(request.City, StringComparison.InvariantCulture)));
     }
 
     public void UpdatePerson(Person person)
