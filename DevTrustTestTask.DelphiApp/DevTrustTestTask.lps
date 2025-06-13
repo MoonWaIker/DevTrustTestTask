@@ -22,7 +22,8 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="ContactManagerForm"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="3" Y="51"/>
+        <TopLine Value="94"/>
+        <CursorPos X="35" Y="49"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -45,14 +46,6 @@
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="28">
-      <Position>
-        <Filename Value="contactmanagerform.pas"/>
-        <Caret Line="134" Column="11" TopLine="117"/>
-      </Position>
-      <Position>
-        <Filename Value="contactmanagerform.pas"/>
-        <Caret Line="126" Column="9" TopLine="114"/>
-      </Position>
       <Position>
         <Filename Value="contactmanagerform.pas"/>
         <Caret Line="13" Column="29" TopLine="5"/>
@@ -160,6 +153,14 @@
       <Position>
         <Filename Value="ContactManagerForm.dfm"/>
         <Caret Line="89" Column="38" TopLine="73"/>
+      </Position>
+      <Position>
+        <Filename Value="contactmanagerform.pas"/>
+        <Caret Line="34" Column="39" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="contactmanagerform.pas"/>
+        <Caret Line="35" Column="42" TopLine="19"/>
       </Position>
     </JumpHistory>
     <RunParams>
