@@ -63,33 +63,38 @@ object Form1: TForm1
   object btnAdd: TButton
     Left = 10
     Top = 280
-    Width = 100
+    Width = 130
+    Height = 30
     Caption = 'Add'
     TabOrder = 5
     OnClick = btnAddClick
   end
   object btnDelete: TButton
-    Left = 120
+    Left = 150
     Top = 280
-    Width = 100
+    Width = 130
+    Height = 30
     Caption = 'Delete'
     TabOrder = 6
     OnClick = btnDeleteClick
   end
   object btnSaveToFile: TButton
-    Left = 230
+    Left = 290
     Top = 280
-    Width = 100
+    Width = 130
+    Height = 30
     Caption = 'Save to File'
     TabOrder = 7
     OnClick = btnSaveToFileClick
   end
   object btnLoadFromFile: TButton
-    Left = 340
+    Left = 430
     Top = 280
-    Width = 100
+    Width = 130
+    Height = 30
     Caption = 'Load from File'
     TabOrder = 8
     OnClick = btnLoadFromFileClick
   end
 end
+
