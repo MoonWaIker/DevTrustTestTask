@@ -1,5 +1,6 @@
 using DevTrustTestTask.Infrastructure.Utils;
 using DevTrustTestTask.DataBase.Utils;
+using DevTrustTestTask.Utils;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,5 +28,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseDevTrustTestTaskMiddleware();
 
 await app.RunAsync();
