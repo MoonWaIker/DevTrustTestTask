@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DevTrustTestTask.DataBase.Contexts;
 
-public class DevTrustTestTaskContext : DbContext
+public sealed class DevTrustTestTaskContext : DbContext
 {
     public DbSet<Person> People { get; set; }
 

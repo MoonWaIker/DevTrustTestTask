@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DevTrustTestTask.Infrastructure.Services;
 
-public class PeopleService(DevTrustTestTaskContext context) : IPeopleService
+public sealed class PeopleService(DevTrustTestTaskContext context) : IPeopleService
 {
     private readonly DevTrustTestTaskContext _context = context;
 

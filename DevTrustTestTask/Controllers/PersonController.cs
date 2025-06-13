@@ -7,7 +7,7 @@ namespace DevTrustTestTask.Controllers;
 
 [Route(ControllerRoute)]
 [ApiController]
-public class PersonController(IPeopleService service) : ControllerBase
+public sealed class PersonController(IPeopleService service) : ControllerBase
 {
     private const string IdRoute = "{id:long}";
     private const string ControllerRoute = "api/[controller]";

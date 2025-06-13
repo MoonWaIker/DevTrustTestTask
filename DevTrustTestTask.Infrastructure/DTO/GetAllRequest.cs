@@ -1,6 +1,6 @@
 namespace DevTrustTestTask.Infrastructure.DTO;
 
-public record GetAllRequest
+public sealed record GetAllRequest
 {
     public string FirstName { get; set; } = string.Empty;
 

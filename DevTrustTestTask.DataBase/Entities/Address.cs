@@ -1,6 +1,6 @@
 namespace DevTrustTestTask.DataBase.Entities;
 
-public record Address
+public sealed record Address
 {
     public long Id { get; set; }
 
